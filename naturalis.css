@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+@font-face {
+    font-family: "LeagueSpartan";
+    src: url(font/LeagueSpartan-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Questrial";
+    src: url(font/Questrial-Regular.ttf);
+}
+@font-face {
+    font-family: "St";
+    src: url(font/Staatliches-Regular.ttf);
+}
+.logo{
+    margin-bottom: 18px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bold;
+}
+.BotoneH ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.BotoneH a{
+    color: #1F1F1F;
+    text-decoration: none;
+    margin: 0px 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+.BotoneH a:hover{
+    background-color: #6C7554;
+    color: #FFFFFF;
+}
+header{
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+body{
+    background-image: url(img/fondo.png);
+}
+.Titulo{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Ft";
+    font-weight: bold;
+    color: #FFFFFF;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/fondo.png")
+}
+.parrafo{
+   text-align: center;
+   padding: 100px auto;
+   margin: 10px 200px;
+    color: #FFFFFF;
+}
+.ic{
+    height: 342px;
+    width: 609px;
+    
+}
+.cara{
+    height: 342px;
+    width: 609px;
+    padding: 12px;
+    margin: 1% 34.2%;
+
+}
+.TituloO{
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Ft";
+    font-weight: bold;
+    color: #FFFFFF;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/fondo.png")
+}
+.objetivos{
+    display: flex;
+    justify-content: space-between; 
+    margin: 30px;   
+}
+.columna1{
+    margin: 10px 2px;
+    text-align: center;
+}
+.img{
+    margin: 10px 2px;
+    padding: 1px;
+}
+
+/* Footer 
+footer{
+    background-color: rgba(208 216 158/.9);
+    padding: 2em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color:#1F1F1F ;
+
+}
+.infopie{
+    display: flex;
+}
+
+.columnap1{
+    margin: 10px 100px;
+    padding: 2em;
+    text-align: left ;
+    width: 100%;
+}
+.columnap2{
+    margin: 10px 100px;
+    padding: 2em;
+    text-align: center center;
+    width: 100%;
+}
+.columnap3{
+    margin: 10px 100px;
+    padding: 2.5em;
+    width: 100%;
+    text-align: right center;
+}
+.f1{
+    margin: 2px;
+    padding: 2%;
+    text-align: center;
+}
+.f2{
+    margin: 2px;
+    padding: 2%;
+    text-align: center;
+}
+.f3{
+    margin: 2px;
+    padding: 2%;
+    text-align: center;
+}
+.f4{
+    margin: 2px;
+    padding: 2%;
+    text-align: center;
+}
+.pie1{
+    text-align: center;
+    margin: 10px 15px;
+}
+Footer */
