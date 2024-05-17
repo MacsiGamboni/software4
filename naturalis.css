@@ -5,15 +5,15 @@
 }
 @font-face {
     font-family: "LeagueSpartan";
-    src: url(font/LeagueSpartan-VariableFont_wght.ttf);
+    src: url(LeagueSpartan-VariableFont_wght.ttf);
 }
 @font-face {
     font-family: "Questrial";
-    src: url(font/Questrial-Regular.ttf);
+    src: url(Questrial-Regular.ttf);
 }
 @font-face {
     font-family: "St";
-    src: url(font/Staatliches-Regular.ttf);
+    src: url(Staatliches-Regular.ttf);
 }
 .logo{
     margin-bottom: 18px;
@@ -47,7 +47,7 @@ header{
     background-color: #FFFFFF;
 }
 body{
-    background-image: url(img/fondo.png);
+    background-image: url(fondo.png);
 }
 .Titulo{
     margin-top: 20px;
@@ -55,13 +55,13 @@ body{
     font-family: "Ft";
     font-weight: bold;
     color: #FFFFFF;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/fondo.png")
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fondo.png")
 }
 .parrafo{
-   text-align: center;
+
    padding: 100px auto;
    margin: 10px 200px;
-    color: #FFFFFF;
+   text-align: justify;
 }
 .ic{
     height: 342px;
@@ -81,25 +81,62 @@ body{
     font-family: "Ft";
     font-weight: bold;
     color: #FFFFFF;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/fondo.png")
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fondo.png")
 }
-.objetivos{
-    display: flex;
-    justify-content: space-between; 
-    margin: 30px;   
-}
-.columna1{
-    margin: 10px 2px;
+.galeria{
     text-align: center;
+    margin: 10px 47px;
+    float: left;
+    width: 20%;
+    padding: 1em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fondo.png")
 }
-.img{
-    margin: 10px 2px;
-    padding: 1px;
+.galeria img{
+
+    width: 100%;
+    height: auto; 
+}
+.tituloimg{
+    margin: 10px 47px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+.textimg{
+    text-align: justify;
+    margin: 10px 47px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fondo.png")
 }
 
-/* Footer 
+.subt{
+    margin: 10px;
+    text-align: center;
+}
+.boxUT img{
+    max-width: 320px;
+    float: left;
+    margin: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+
+}
+.boxUT{
+    
+    margin: 10px 30px;
+}
+.boxUT p{
+    font-size: 16px;
+    text-indent: 6px;
+    text-align: justify;
+}
+.mapa{
+    text-align: center;
+    padding: 100px auto;
+    margin: 10px 200px;
+}
 footer{
-    background-color: rgba(208 216 158/.9);
+    background-color: #526149;
     padding: 2em;
     position: relative;
     bottom: 0;
@@ -129,6 +166,7 @@ footer{
     padding: 2.5em;
     width: 100%;
     text-align: right center;
+    color: #FFFFFF;
 }
 .f1{
     margin: 2px;
@@ -154,4 +192,9 @@ footer{
     text-align: center;
     margin: 10px 15px;
 }
-Footer */
+.form-basin{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding: 40px 20px 40px 20px; font-size: 16px; font-weight: 400; background-color: transparent; } .form-basin form { margin: auto; max-width: 600px; } .form-basin label { display: block; margin-bottom: 8px; } .form-basin input, .form-basin textarea, .form-basin select { width: 100%; padding: 12px; margin-bottom: 16px; font-family: inherit; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; transition: border-color 0.3s; } .form-basin input:focus, .form-basin textarea:focus, .form-basin select:focus { border-color: #526149; outline: none; } .form-basin button { background-color: #526149; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-weight: 500; letter-spacing: 1px; transition: background-color 0.3s; } .form-basin button:hover { filter: brightness(85%); } .form-basin ::placeholder { font-family: inherit; opacity: 0.7; } .form-basin input[type='checkbox'] { margin-right: 8px; width: auto; } .form-basin fieldset { border: 1px solid #ccc; padding: 10px; margin-bottom: 16px; border-radius: 4px; } .form-basin legend { padding: 0 10px; font-weight: bold; font-size: 1em; } .form-basin input[type='radio'] { margin-right: 8px; margin-top: 4px; width: auto; cursor: pointer; } .form-basin .radio-label { display: inline-block; margin-right: 15px; cursor: pointer; } .form-basin .radio-group { margin-bottom: 16px; } .form-basin .donation-type { margin-bottom: 16px; } .form-basin .donation-type span { font-weight: 500; margin-right: 10px; } .form-basin input[type='number'] { -webkit-appearance: textfield; -moz-appearance: textfield; appearance: textfield; } .form-basin input[type='number']::-webkit-inner-spin-button, .form-basin input[type='number']::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; } .form-basin .form-check { display: flex; align-items: center; margin-bottom: 16px; } .form-basin .form-check-input { margin-top: 14px; margin-right: 10px; cursor: pointer; } .form-basin .form-check-label { margin-bottom: 0; cursor: pointer;
+}
+.mp{
+    color: white;
+}
